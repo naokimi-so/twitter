@@ -1,0 +1,55 @@
+body {
+  background-color: #F5F8FA;
+}
+
+.header{
+  background-color: #fff;
+  height: 61px;
+  box-shadow: 0 2px 4px rgba(0 , 0, 0, 0.5);
+  .common{
+    font-size: 23px;
+    color: #86929A;
+    padding-top: 12px;
+    margin-right: 3px;
+  }
+  span{
+    font-size: 16px;
+    margin-right: 8px;
+    color: #86929A;
+    &:last-child{
+      margin: auto;
+    }
+  }
+  .twitter{
+    color: #55acee;
+  }
+  .ui.search{
+    margin-top: 5px;
+  }
+  .header-icon{
+    text-align: center;
+  }
+  .ui.search{
+    width: 60px;
+  }
+  img.tweet{
+   width: 40px;
+   height: 40px;
+   padding-top: 6px;
+  }
+  img.gakufes{
+    padding-top: 3px;
+  }
+}
+
+.right-bar{
+  background-color: #55acee;
+  height: 800px;
+  margin-top: 30px;
+}
+
+.left-bar{
+  background-color: #f77168;
+  height: 800px;
+  margin-top: 30px;
+}
